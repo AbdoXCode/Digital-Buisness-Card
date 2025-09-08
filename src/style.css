@@ -14,8 +14,8 @@ body {
   margin-top: 10px;
 }
 .image-container {
-  width: 200px;
-  height: 200px;
+  width: 317px;
+  height: 317px;
   overflow: hidden;
   border-radius: 10px 10px 0 0;
   margin-bottom: 21px;
@@ -48,4 +48,25 @@ body {
   color: #f5f5f5;
   font-size: 0.625rem;
   margin-top: 8px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: center;
+  gap: 17px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.buttons button {
+  width: 115px;
+  padding: 9px 27px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.email {
+  background-color: white;
+}
+.email::before {
+  content: "";
 }
