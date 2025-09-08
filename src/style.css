@@ -63,10 +63,24 @@ body {
   padding: 9px 27px;
   border-radius: 6px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  gap: 8px;
 }
 .email {
   background-color: white;
 }
 .email::before {
-  content: "";
+  content: url("/icons/Mail.svg");
+}
+.linkedIn {
+  background-color: #5093e2;
+  color: white;
+}
+.linkedIn::before {
+  content: url("/icons/linkedin.svg");
 }
