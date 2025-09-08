@@ -57,6 +57,7 @@ body {
   gap: 17px;
   margin-left: 35px;
   margin-right: 35px;
+  padding-bottom: 33px;
 }
 .buttons button {
   width: 115px;
@@ -89,4 +90,24 @@ body {
 }
 .email:hover {
   box-shadow: 0px 4px 10px 4px #a4a4a4;
+}
+
+.section {
+  background-color: #1a1b21;
+  padding: 0 35px;
+}
+.section h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.section p {
+  width: 15.625rem;
+  font-weight: 400;
+  font-size: 0.625rem;
+  color: #dcdcdc;
+  line-height: 1.5;
+}
+.interests {
+  padding-top: 27px;
 }
