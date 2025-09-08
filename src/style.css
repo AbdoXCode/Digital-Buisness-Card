@@ -6,18 +6,20 @@
 
 body {
   background-color: #23252c;
-  margin: 0;
   display: flex;
   justify-content: center;
   color: #ffffff;
   font-family: Inter, sans-serif;
-  margin-top: 10px;
+  margin: 0;
+}
+main {
+  border-radius: 10px;
+  overflow: hidden;
 }
 .image-container {
   width: 317px;
   height: 317px;
   overflow: hidden;
-  border-radius: 10px 10px 0 0;
   margin-bottom: 21px;
 }
 
@@ -110,4 +112,13 @@ body {
 }
 .interests {
   padding-top: 27px;
+  padding-bottom: 24px;
+}
+footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 73px;
 }
