@@ -3,7 +3,7 @@ export default function Info() {
     <div>
       <div className="image-container">
         <img
-          src="../Digital-Buisness-Card/src/images/design-img.png"
+          src="/Digital-Buisness-Card/src/images/design-img.png"
           alt="girl image"
         />
       </div>
